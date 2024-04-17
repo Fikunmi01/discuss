@@ -1,3 +1,4 @@
+import { Grid } from "./components/grid";
 import { Hero } from "./components/hero";
 import { Invitation } from "./components/invite";
 import { Navbar } from "./components/navbar";
@@ -10,6 +11,7 @@ function App() {
         <Navbar />
         <Hero />
         <Invitation />
+        <Grid/>
       </div>
     </>
   );

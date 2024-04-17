@@ -41,27 +41,28 @@ export const Invitation = () => {
           })}
         </div>
 
-        <div className="bg-[#1A1A1A] px-24 py-6">
+        <div className="bg-[#1A1A1A] px-20 py-6 mb-10">
           <h1 className="font-semibold text-4xl text-white">
             JOIN THE DISCUS COMMUNITY
           </h1>
         </div>
 
         <div className="flex gap-6">
-          
-          <div className="flex flex-col ">
+          <div className="flex w-full flex-col ">
             <img src="./assets/img1.png" className="h-[50vh] " alt="" />
 
-            <div className="flex ">
+            <div className="flex relative h-52 bg-[#1A1A1A] text-white px-3 py-6">
               <div>
-                <div>
+                <div className="mb-10">
                   <h1 className="font-oswo font-medium text-2xl">
                     Priority Acess
                   </h1>
                 </div>
 
                 <div>
-                  <p className="font-serif w-full text-xs">
+                  <div className="border-t-2 border-solid border-white w-20 mb-3 rounded-full"></div>
+
+                  <p className="font-serif text-[10px] text-left">
                     Be among the first to experience our exciting platform and
                     gain access to exclusive content, events, and opportunities
                     before anyone else!
@@ -70,14 +71,16 @@ export const Invitation = () => {
               </div>
 
               <div>
-                <div>
-                  <h1 className="font-oswo font-medium text-2xl">
-                    Early Bird Invite
+                <div className="mb-10 ">
+                  <h1 className="font-oswo font-medium text-2xl text-right">
+                    Early Bird Invitations
                   </h1>
                 </div>
 
                 <div>
-                  <p className="font-serif text-xs">
+                  <div className="left-60 relative border-t-2 border-solid border-white w-20 mb-3 rounded-full"></div>
+
+                  <p className="font-serif text-right text-[10px]">
                     Receive early invitations to events, workshops,
                     masterclasses, and networking opportunities, providing you
                     with unique chances to connect, collaborate, and grow
@@ -87,43 +90,35 @@ export const Invitation = () => {
             </div>
           </div>
 
-          <div className="flex flex-col relative">
+          <div className="flex w-full flex-col ">
             <img src="./assets/img2.png" className="h-[50vh] " alt="" />
 
-            <div className="flex gap-16">
+            <div className=" relative bg-[#1A1A1A]  text-white px-3 py-6">
               <div>
                 <div>
-                  <h1 className="font-oswo font-medium text-2xl">
-                    Priority Acess
+                  <h1 className="font-oswo font-medium text-2xl mb-10">
+                    Professional Development
                   </h1>
                 </div>
 
                 <div>
-                  <p className="font-serif text-xs">
-                    Be among the first to experience our exciting platform and
-                    gain access to exclusive content, events, and opportunities
-                    before anyone else!
-                  </p>
-                </div>
-              </div>
-
-              <div>
-                <div>
-                  <h1 className="font-oswo font-medium text-2xl">
-                    Early Bird Invite
-                  </h1>
-                </div>
-
-                <div>
-                  <p className="font-serif text-xs">
-                    Receive early invitations to events, workshops,
-                    masterclasses, and networking opportunities, providing you
-                    with unique chances to connect, collaborate, and grow
+                  <div className="border-t-2 border-solid border-white w-20 mb-3 rounded-full"></div>
+                  <p className="font-serif text-[10px] text-left">
+                    Take advantage of workshops, masterclasses, training/scout
+                    camps and mentorship programs that help you develop your
+                    skills- download real awarded treatments, director's notes
+                    and breakdowns from visionary producers, receive first hand
+                    training from professional coaches programs, refine your
+                    craft, and achieve your career goals. Embark on a journey of
+                    personal and professional growth as you explore new avenues
+                    of creativity, push your boundaries, and discover the
+                    endless possibilities that await you within our diverse and
+                    dynamic community.
                   </p>
                 </div>
               </div>
             </div>
-          </div>{" "}
+          </div>
         </div>
       </div>
     </>
