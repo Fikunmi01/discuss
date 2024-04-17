@@ -1,18 +1,15 @@
-import { Grid } from "./components/grid";
-import { Hero } from "./components/hero";
-import { Invitation } from "./components/invite";
-import { Navbar } from "./components/navbar";
 import "./output.css";
+import { About } from "./pages/About";
+import { Homepage } from "./pages/Homepage";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <div>
-        <Navbar />
-        <Hero />
-        <Invitation />
-        <Grid/>
-      </div>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
     </>
   );
 }

@@ -86,7 +86,28 @@ export const Grid = () => {
         </div>
 
         <div className="bg-[#1A1A1A] text-center w-1/2 mx-auto px-20 py-6 mb-10">
-          <h1 className="font-semibold text-4xl text-white">JOIN THE COMMUNITY</h1>
+          <h1 className="font-semibold text-4xl text-white">
+            JOIN THE COMMUNITY
+          </h1>
+        </div>
+
+        <div className="relative h-[100vh]">
+          <img className="absolute" src="./assets/newMag.png" alt="" />
+
+          <div className="text-white top-48 flex items-center flex-col justify-center relative">
+            <h1 className="font-ussf mb-4 text-6xl font-semibold w-2/3 mx-auto text-center">SUBSCRIBE TO OUR NEWSLETTER</h1>
+            <div className="flex gap-x-4 items-center">
+              <input
+                type="text"
+                className="py-2 px-4 w-72 font-serif"
+                name=""
+                placeholder="discusmag@gmail.com"
+                id=""
+              />
+
+              <button className="bg-[#F18701] border-2 font-serif border-solid border-white px-4 py-2 font-bold">SUBMIT</button>
+            </div>
+          </div>
         </div>
       </div>
     </>
